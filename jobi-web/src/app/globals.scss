@@ -1,0 +1,10 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+@import 'react-toastify/dist/ReactToastify.css';
+@import "~slick-carousel/slick/slick.css";
+@import '/public/assets/scss/style.scss';
+
+body.zh,
+div.zh {
+  font-family: "Noto Sans SC", "Source Han Sans", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}

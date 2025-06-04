@@ -1,0 +1,42 @@
+export const categoryMapping: { [key: string]: string } = {
+    "Accounting": "会计",
+    "Administration & Office Support": "行政及办公室支持",
+    "Advertising, Arts & Media": "广告、艺术与媒体",
+    "Agriculture, Animals & Environment": "农业、动物与环境",
+    "Banking & Financial Services": "银行与金融服务",
+    "Call Center & Customer Service": "呼叫中心与客户服务",
+    "CEO & General Management": "首席执行官及综合管理",
+    "Community Services & Development": "社区服务与发展",
+    "Construction": "建筑",
+    "Consulting & Strategy": "咨询与策略",
+    "Design & Architecture": "设计与建筑",
+    "Education & Training": "教育与培训",
+    "Engineering": "工程",
+    "Government & Defense": "政府与国防",
+    "Healthcare": "医疗保健",
+    "Hospitality & Tourism": "酒店与旅游",
+    "Human Resources & Recruitment": "人力资源与招聘",
+    "Information & Communication Technology": "信息与通信技术",
+    "Insurance & Superannuation": "保险与退休金",
+    "Legal": "法律",
+    "Manufacturing, Transport & Logistics": "制造、运输与物流",
+    "Marketing & Communications": "市场营销与传播",
+    "Mining, Resources & Energy": "采矿、资源与能源",
+    "Other": "其他",
+    "Real Estate & Property": "房地产与物业",
+    "Retail & Consumer Products": "零售与消费品",
+    "Sales": "销售",
+    "Science & Technology": "科学与技术",
+    "Self-Employment": "自由职业",
+    "Sports & Recreation": "体育与娱乐",
+    "Trades & Services": "手工业与服务"
+  };
+
+  export const jobTypeMapping: { [key: string]: string } = {
+    "Full-Time": "全职",
+    "Part-Time": "兼职",
+    "Contract": "合同制",
+    "Internship": "实习",
+    "Temporary": "临时",
+    "Freelance": "自由职业"
+  };

@@ -1,0 +1,41 @@
+// Font Family
+// $main-font: 'gordita';
+// var(--eb_garamond-font): 'EB Garamond', serif;
+
+// Color Settings
+$text-color: rgba(0,0,0,0.7);
+$text-dark: #000;
+$heading: #254035;
+$light-bg: #EFF6F3;
+$color-one: #244034;
+$color-two: #D2F34C;
+$color-three: #00BF58;
+$color-four:#005025;
+$color-five: #31795A;
+
+// **辅助颜色**
+$primary: #007BFF;  // 主要按钮颜色
+$secondary: #6C757D;  // 次要按钮/文字颜色
+$success: #28A745;  // 成功状态
+$danger: #DC3545;  // 错误/警告状态
+$warning: #FFC107;  // 警告
+$info: #17A2B8;  // 信息提示
+$light: #F8F9FA;  // 浅色背景
+$dark: #343A40;  // 深色背景
+
+// **灰度颜色**
+$gray-100: #F8F9FA;
+$gray-200: #E9ECEF;
+$gray-300: #DEE2E6;
+$gray-400: #CED4DA;
+$gray-500: #ADB5BD;
+$gray-600: #6C757D;
+$gray-700: #495057;
+$gray-800: #343A40;
+$gray-900: #212529;
+
+// **渐变色**
+$gradient-primary: linear-gradient(135deg, #00C6FB 0%, #005BEA 100%);
+$gradient-success: linear-gradient(135deg, #00B09B 0%, #96C93D 100%);
+$gradient-warning: linear-gradient(135deg, #FFD200 0%, #F7971E 100%);
+$gradient-danger: linear-gradient(135deg, #FF4B2B 0%, #FF416C 100%);

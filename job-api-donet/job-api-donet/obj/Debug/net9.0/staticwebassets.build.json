@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "QPx+kT0123bLEMbJSOC2THX3D6ao6QAS/0rECHKJ6KE=",
+  "Source": "job-api-donet",
+  "BasePath": "_content/job-api-donet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "job-api-donet\\wwwroot",
+      "Source": "job-api-donet",
+      "ContentRoot": "E:\\kiwicareer\\job-api-donet\\job-api-donet\\wwwroot\\",
+      "BasePath": "_content/job-api-donet",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

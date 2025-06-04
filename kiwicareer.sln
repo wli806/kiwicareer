@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jobi-api-dotnet1", "jobi-api-dotnet1\jobi-api-dotnet1.csproj", "{A8510278-02D5-F2C5-6E3B-E9C5A13454F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8510278-02D5-F2C5-6E3B-E9C5A13454F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8510278-02D5-F2C5-6E3B-E9C5A13454F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8510278-02D5-F2C5-6E3B-E9C5A13454F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8510278-02D5-F2C5-6E3B-E9C5A13454F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {700932DF-F4B4-408C-A304-9E2437F06CF7}
+	EndGlobalSection
+EndGlobal

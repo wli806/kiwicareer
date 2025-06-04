@@ -1,0 +1,229 @@
+.small-text {
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+  
+.nice-select .list {
+  max-height: 300px;  /* 限制最大高度 */
+  overflow-y: auto;   /* 当选项过多时显示滚动条 */
+  border-radius: 8px; /* 圆角 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 美化滚动条 */
+.nice-select .list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.nice-select .list::-webkit-scrollbar-thumb {
+  background-color: #b5b5b5;
+  border-radius: 6px;
+}
+
+.nice-select .list::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.no-border-input {
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.job-description-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: $text-color;
+  font-family: var(--eb_garamond-font), serif;
+  
+  // 让文字更流畅
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+}
+
+// **标题优化**
+.job-description-content h1,
+.job-description-content h2,
+.job-description-content h3 {
+  color: $heading;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.job-description-content h1 {
+  font-size: 28px;
+  border-bottom: 2px solid $color-two; // 给 h1 加一条淡黄色的底线
+  padding-bottom: 10px;
+}
+
+.job-description-content h2 {
+  font-size: 24px;
+}
+
+.job-description-content h3 {
+  font-size: 22px;
+  color: $color-five;
+}
+
+// **段落**
+.job-description-content p {
+  margin-bottom: 20px;
+  color: $gray-800;
+  font-size: 17px;
+}
+
+// **列表样式**
+.job-description-content ul {
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+.job-description-content li {
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: $gray-900;
+  list-style-type: disc;
+}
+
+// **强调文本**
+.job-description-content strong {
+  color: $color-four;
+  font-weight: 600;
+}
+
+// **超链接**
+.job-description-content a {
+  color: $primary;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $color-three;
+    text-decoration: underline;
+  }
+}
+
+// **表格优化**
+.job-description-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.job-description-content th, 
+.job-description-content td {
+  border: 1px solid $gray-300;
+  padding: 10px;
+  text-align: left;
+}
+
+.job-description-content th {
+  background-color: $light-bg;
+  font-weight: bold;
+  color: $heading;
+}
+
+// **代码块优化**
+.job-description-content pre {
+  background: $gray-100;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: "Courier New", monospace;
+  overflow-x: auto;
+}
+
+.job-description-content code {
+  background: $gray-200;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: $color-four;
+  font-family: "Courier New", monospace;
+}
+
+.related-job-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 300px;
+  position: relative;
+  padding: 0 50px;
+}
+
+.swiper-slide {
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+}
+
+.related-job-slider .swiper-button-next,
+.related-job-slider .swiper-button-prev {
+  color: #3da35d !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  position: absolute; // 确保箭头能定位
+  top: 50%; // 让箭头垂直居中
+  transform: translateY(-50%);
+  z-index: 10; // 确保箭头在最上层
+}
+
+/* 调整箭头 hover 效果 */
+.related-job-slider .swiper-button-next:hover,
+.related-job-slider .swiper-button-prev:hover {
+  color: #2a8a47 !important;
+}
+
+
+.wishlist-btn {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(61, 163, 93, 0.1);
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(61, 163, 93, 0.2);
+  }
+
+  &.active {
+    background-color: #32795a;
+    color: white;
+  }
+}
+
+.logo {
+  height: 60px;
+  width: fit-content;
+  img {
+      max-height: 100%;
+  }
+}
+
+.logo-centered {
+  display: flex;
+  align-items: center;
+  img {
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 450px) {
+  .hide-below-450 {
+    display: none !important;
+  }
+}
