@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("job-api-donet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9eb13c9864723ec84db813efe7e671d9ffbede3")]
 [assembly: System.Reflection.AssemblyProductAttribute("job-api-donet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("job-api-donet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

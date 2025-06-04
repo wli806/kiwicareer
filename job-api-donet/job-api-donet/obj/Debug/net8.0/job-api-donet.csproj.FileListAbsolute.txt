@@ -60,3 +60,4 @@ E:\kiwicareer\job-api-donet\job-api-donet\obj\Debug\net8.0\refint\job-api-donet.
 E:\kiwicareer\job-api-donet\job-api-donet\obj\Debug\net8.0\job-api-donet.pdb
 E:\kiwicareer\job-api-donet\job-api-donet\obj\Debug\net8.0\job-api-donet.genruntimeconfig.cache
 E:\kiwicareer\job-api-donet\job-api-donet\obj\Debug\net8.0\ref\job-api-donet.dll
+E:\kiwicareer\job-api-donet\job-api-donet\obj\Debug\net8.0\job-api-donet.sourcelink.json
